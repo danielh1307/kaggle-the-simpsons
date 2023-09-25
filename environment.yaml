@@ -1,0 +1,16 @@
+name: kaggle-the-simpsons-env
+
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - pytorch
+  - torchvision
+  - pytorch-cuda
