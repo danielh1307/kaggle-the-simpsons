@@ -2,7 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,python,django
 
 data/*
-.idea/
+.idea/*
+data/test/*
+data/train/*
+
 
 
 ### Django ###
