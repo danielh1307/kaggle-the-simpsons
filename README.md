@@ -1,6 +1,6 @@
 # Kaggle The Simpsons Competition
 
-This is my solution for the [Simpsons Character](https://www.kaggle.com/datasets/alexattia/the-simpsons-characters-dataset) on Kaggle.  
+This is my solution for the [Simpsons Challenge](https://www.kaggle.com/competitions/simpsons-challenge-gft) on Kaggle.  
 
 The solution was implemented in Jupyter Notebooks with Python.
 
@@ -10,9 +10,9 @@ I added all the trained models (except the Vision Transformer) to the [trained_m
 
 ## Results
 I tried different neural networks, both "from scratch" and pre-trained ones. For training, I used one GPU of type NVIDIA GeForce RTX 2080 SUPER.  
-I used the following networks for training and testing:  
+I used the following notebooks for training and testing:  
 * Own networks and RESNET 18: [TRAIN](the-simpsons-train.ipynb), [TEST](the-simpsons-test.ipynb)
-* Vision Transformer from Hugging Face: [TRAIN](the-simpsons-train-vit.ipynb), [TEST](the-simpsons-test.ipynb)
+* Vision Transformer from Hugging Face: [TRAIN](the-simpsons-train-vit.ipynb), [TEST](the-simpsons-test-vit.ipynb)
 
 
 Here are the results:  
